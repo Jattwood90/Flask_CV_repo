@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- meta -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Joseph Attwood</title>
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="{{url_for('static', filename='lib/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+
+  <!-- Libraries CSS Files {{url_for('static', filename='')}} -->
+  <link href="{{url_for('static', filename='lib/ionicons/css/ionicons.min.css')}}" rel="stylesheet"> 
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  
+  <!-- bootstrap stuff for timeline -->
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+  <!-- reCaptcha key -->
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+  <!-- Main Stylesheet File -->
+  <link href="{{url_for('static', filename='css/style.css')}}" rel="stylesheet">
+  <!-- Contact style sheet -->
+  <link href="{{url_for('static', filename='css/contactform.css')}}" rel="stylesheet">
+
+
+  <!-- Responsive css -->
+  <link href="{{url_for('static', filename='css/responsive.css')}}" rel="stylesheet"> 
+
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="{{url_for('static', filename='images/cvfav.png')}}">
+
+</head>
+
+<body>
+
+  <!-- start section navbar -->
+  <nav id="main-nav">
+    <div class="row">
+      <div class="container">
+
+        
+
+        <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
+
+        <ul class="nav-menu list-unstyled">
+          <li><a href="#header" class="smoothScroll">Home</a></li>
+          <li><a href="#about" class="smoothScroll">About</a></li>
+          <li><a href="#form" class="smoothScroll">Contact</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- End section navbar -->
+
+
+  <!-- start section header -->
+  <div id="header" class="home">
+
+    <div class="container">
+      <div class="header-content">
+        <h1><span class="typed"></span></h1>
+        <p>Researcher, Developer</p>
+        <ul class="list-unstyled list-social">
+          <li><a href="https://github.com/Jattwood90"><i class="ion-social-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/joseph-a-ttwood"><i class="ion-social-linkedin"></i></a></li>
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+  <!-- End section header -->
+
+
+  <!-- start section about us -->
+  <div id="about" class="paddsection">
+    <div class="container">
+      <div class="row justify-content-between">
+
+        <div class="col-lg-4 ">
+          <div class="div-img-bg">
+            <div class="about-img">
+              <img src="{{url_for('static', filename='images/Amsterdam Joe.jpg')}}" class="img-responsive" alt="me">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="about-descr">
+
+            <p class="p-heading">I am a freelance developer, and open source researcher.</p>
+            <p class="separator" style="text-align: justify;">As a passionate problem solver, I have thrown myself into learning new skills, and creative problem solving.
+              I am a self-taught <b>Python developer</b>, and have a working knowledge of <b>HTML and CSS.</b> I have expert research skills using established and reliable OSINT tools and techniques.
+              Outside of work I enjoy running, practising jiujitsu, weight-lifting and playing the bass guitar.</p>
+            <div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end section about us -->
+
+
+  <!-- start timeline section  -->
+  <div>
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <h4 id="experience">Experience</h4>
+          <br></br>
+          <ul class="timeline">
+            <li>
+              <a target="_blank" href='https://www.sportradar.com/about-us/group-set-up/'>Analyst, Sportradar, London</a>
+              <a class="float-right">December 2019</a>
+              <p id=para></p><ul>
+                <li style="text-align: justify;">Investigated entities using knowledge of OSINT techniques, HTTP, DNS, TCP/IP, web-hosting and internet registries.</li>
+                <li style="text-align: justify;">Generated revenue opportunities &nbsp;and evidence capture via Python automation scripts.</li>
+                <li style="text-align: justify;">Completed detailed reports for key stake holders and litigation team.</li>
+                <li style="text-align: justify;">Daily use of Jira for raising tickets and tasking assignments.</li>
+                <li style="text-align: justify;">Currently working alongside an international team, in offices around the world.</li>
+            </ul>
+
+              </p>
+            </li>
+            <li>
+              <a href='https://www.ifpi.org/about.php'>Analyst, IFPI, London</a>
+              <a  class="float-right">September 2018</a>
+              <p id=para>
+                <ul>
+                  <li style="text-align: justify;">Investigated intellectual property infringement and enforcing content removal across a variety of online platforms,</li>
+                  <li style="text-align: justify;">Wrote Python scripts to automate checking HTTP status of websites under investigation.</li>
+                  <li style="text-align: justify;">Gathered and organised data using IBM i2 briefing charts, Excel VBAs, and SEO Tools.</li>
+                  <li style="text-align: justify;">SQL database querying and editing,</li>
+                  <li style="text-align: justify;">Wrote reports highlighting infrastructure of infringing domains and from where the content was served.</li>
+                </ul>
+              </p>
+            </li>
+            <li>
+              <a href="https://serocu.police.uk/about-serocu/">Analyst, SEROCU, Southampton</a>
+              <a class="float-right">March 2015</a>
+              <p id=para>
+                <ul>
+                  <li style="text-align: justify;">Methodical approach to problem solving, documenting every step which could then be repeated by others.</li>
+                  <li style="text-align: justify;">Led the telecoms data strategy for several significant operations, handling 100,000s lines of data.</li>
+                  <li style="text-align: justify;">Implemented quantitative and qualitative research methods for bespoke crime problems,</li>
+                  <li style="text-align: justify;">Used OSINT techniques to uncover operatives using the dark-web</li>
+                  <li style="text-align: justify;">Produced detailed but concise evidence bundles for UK Crown Court.</li>
+                  <li style="text-align: justify;">Verbal presentations to senior stake-holders and decision makers.</li>
+                </ul>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end timeline -->
+
+  <!-- Contact-form -->
+
+  <!-- start section contact -->
+<div>
+  <div>
+    <div>
+      <div>
+        <header>Work with me!</header>
+
+        <form id="form" class="topBefore" action="" method="post">
+
+          <input id="name" type="text" required name="name", placeholder="Name">
+          <input id="email" type="email" required name="email" placeholder="E-Mail">
+          <input id="subject" type="subject" required name="subject" placeholder="Subject">
+          <textarea id="message" type="message" required name="message" placeholder="Message"></textarea>
+          <input id="submit" type="submit" disabled value="Submit">
+          <div class="g-recaptcha" style="display: center;" data-sitekey="6LerQ_gUAAAAAHb8k3uc0G4FBQj44hYKXBCz3tqI" data-callback="enableBtn"></div>
+        </form>
+        <script type="text/javascript">
+          var enableBtn = function() {
+            $("#submit").prop("disabled", false);
+          };
+        </script>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- start section contact -->
+
+  <!-- start section footer -->
+  <div id="footer" class="text-center">
+    <div class="container">
+      <div class="socials-media text-center">
+
+        <ul class="list-unstyled">
+          <li><a href="https://github.com/Jattwood90"><i class="ion-social-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/joseph-a-ttwood"><i class="ion-social-linkedin"></i></a></li>
+
+        </ul>
+
+      </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- End section footer -->
+
+  <!-- JavaScript Libraries --> 
+  <script src="{{url_for('static', filename='lib/jquery/jquery.min.js')}}"></script> 
+  <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+  <script src="{{url_for('static', filename='lib/jquery/jquery-migrate.min.js')}}"></script> 
+  <script src="{{url_for('static', filename='lib/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+  <script src="{{url_for('static', filename='lib/typed/typed.js')}}"></script> 
+  <script src="{{url_for('static', filename='lib/owlcarousel/owl.carousel.min.js')}}"></script> 
+  <script src="{{url_for('static', filename='lib/magnific-popup/magnific-popup.min.js')}}"></script> 
+  <script src="{{url_for('static', filename='lib/isotope/isotope.pkgd.min.js')}}"></script>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+
+  <!-- Template Main Javascript File -->
+  <script type="text/javascript" src="{{url_for('static', filename='js/main.js')}}"></script> 
+
+</body>
+
+</html>

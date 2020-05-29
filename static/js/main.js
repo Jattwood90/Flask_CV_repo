@@ -197,7 +197,7 @@ var enableBtn = function() {
 
 var onloadCallback = function() {
   grecaptcha.render('html_element', {
-    'sitekey' : '6LerQ_gUAAAAAHb8k3uc0G4FBQj44hYKXBCz3tqI'
+    'sitekey' : 'SITE KEY'
   });
 };
 
